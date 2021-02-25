@@ -2,6 +2,7 @@
 require './lib/bookmark.rb'
 require 'sinatra/base'
 
+
 # Store and display Bookmarks
 class BookmarkManager < Sinatra::Base
   get '/' do
